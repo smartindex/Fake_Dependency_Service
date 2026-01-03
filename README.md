@@ -500,7 +500,7 @@ Dependency Service in docker, then run these files to see the service working in
 * [GetWithQueryParamMulti](./http/GetWithQueryParamMulti.http) - Provides examples where the query param is the unique
   id, and there are multiple query params.
 * [GetWithUniqueURI](./http/GetWithUniqueURI.http) - Provides examples where the URI is unique enough
-* [HttpMethodMock](.http/HttpMethodMock.http) - Provides examples of restricting a mock to an http method.
+* [HttpMethodMock](./http/HttpMethodMock.http) - Provides examples of restricting a mock to an http method.
 * [ParseRequestHeaderPayload](./http/ParseRequestHeaderPayload.http) - Provides examples where the mock id is parsed
   from a request header json
 * [PostWithPayloadId](./http/PostWithPayloadId.http) - Provides examples where the unique is a root level property in a

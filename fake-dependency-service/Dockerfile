@@ -7,7 +7,7 @@ COPY --chown=1000:1000 build.gradle.kts settings.gradle.kts ./
 COPY --chown=1000:1000 ./src ./src
 RUN gradle ${GRADLE_ARGS} ${GRADLE_TARGETS} --info
 
-FROM openjdk:11-jre-slim
+FROM eclipse-temurin:11.0.29_7-jre-ubi10-minimal
 # Declare contain user variables
 ARG CONTAINER_USER_NAME=acceptance
 ARG CONTAINER_USER_ID=10001
